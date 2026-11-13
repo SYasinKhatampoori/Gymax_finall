@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* تم دارک و آبی: همه‌ی رنگ‌ها از همین‌جا می‌آن. برای عوض کردن ظاهر سایت فقط این مقدارها رو تغییر بده. */
+@theme {
+  --font-sans: Tahoma, "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --color-page: #0a1020;      /* پس‌زمینه‌ی صفحه */
+  --color-surface: #111a2e;   /* کارت‌ها */
+  --color-surface2: #18243d;  /* کارت‌های داخل کارت، هاور */
+  --color-line: #263552;      /* خط دور و جداکننده */
+  --color-fg: #e8eefb;        /* متن اصلی */
+  --color-muted: #94a6c6;     /* متن کم‌رنگ */
+  --color-brand: #3b82f6;     /* آبی اصلی */
+  --color-brand-dark: #2563eb;
+  --color-accent: #38bdf8;    /* آبی روشن */
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-page);
+  background-image: radial-gradient(1100px 520px at 85% -10%, rgba(59, 130, 246, 0.14), transparent);
+  background-attachment: fixed;
+}
