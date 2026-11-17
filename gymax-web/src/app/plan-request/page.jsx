@@ -140,7 +140,7 @@ function PlanRequestContent() {
               )}
 
               <Button type="submit" loading={sending}>
-                {hasSubscription ? "ارسال درخواست" : `پرداخت آزمایشی و ارسال (${formatPrice(price)})`}
+                {hasSubscription ? "ارسال درخواست" : `پرداخت (${formatPrice(price)})`}
               </Button>
             </form>
           </Card>

@@ -1,3 +1,4 @@
+import "@fontsource-variable/vazirmatn";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth";
 import Navbar from "@/components/Navbar";
