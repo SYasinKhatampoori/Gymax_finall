@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* تم دارک و آبی: همه‌ی رنگ‌ها از همین‌جا می‌آن. برای عوض کردن ظاهر سایت فقط این مقدارها رو تغییر بده. */
 @theme {
   --font-sans: Tahoma, "Segoe UI", system-ui, -apple-system, sans-serif;
 
